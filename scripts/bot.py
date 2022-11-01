@@ -76,7 +76,7 @@ class uniswap:
     def initSel(self):
         global driver
         chop = webdriver.ChromeOptions()
-        chop.add_extension('../extensions/extension_10_20_0_0.crx')
+        chop.add_extension('../extensions/metamask.crx')
         chop.add_argument('auto-open-devtools-for-tabs')
         if self.quiet:
             chop.add_argument('--headless=chrome')
